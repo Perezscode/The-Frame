@@ -162,14 +162,16 @@ footer {
 
     header {
         margin: 0;
+        padding-bottom: 1rem;
     }
 
     .nav-container {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         text-align: center;
-        padding: 0.5rem;
-        margin: 1.5rem;
+        padding: 1.5rem;
+        margin: 1rem 2em;
     }
 
     h1 {
@@ -217,7 +219,6 @@ footer {
     .dropdown .dropbtn {
         float: center;
         font-size: 16px;
-        font-weight: 400;
         border: none;
         outline: none;
         color: white;
